@@ -1,0 +1,17 @@
+section{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+#rgba{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255,255,255,0.3);
+}/*opacity üstüne yapılan herhangi bir şeyi de şefaf yapar
+ama rgba üstüne yapılan şeyleri şefaflaştırmaz*/
+#opacity{
+    width: 50%;
+    height: 50%;
+    background-color:rgb(255,255,255);
+    opacity: 0.3;
+}
